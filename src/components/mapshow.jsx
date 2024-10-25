@@ -2,9 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import './App.css';
 import Maphandle from './maphandle';
+import { useLocation } from 'react-router-dom';
 
 function MapSearch() {
+    // const { search } = location.state || { search: "" };
     // const location = useLocation();
+    const location = useLocation();
+    const { search } = location.state || {};
 
     return (
         <>
@@ -14,7 +18,7 @@ function MapSearch() {
                     <div className="flex" >
                         {/* Map Container with 70% width */}
                         < div className="flex-70 p-9" >
-                            <Maphandle />
+                            <Maphandle location={search}/>
                         </div>
 
                         {/* Content Section with 30% width */}

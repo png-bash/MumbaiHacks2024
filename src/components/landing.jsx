@@ -10,8 +10,8 @@ const Homepage = () => {
     const handleSearch = (e) => {
         setsearch(e.target.value)
     }
-    const handleSearchButton = (e) => {
-        navigate('/search'); 
+    const handleSearchButton = (search) => {
+        navigate('/search', { state: { search } }); 
         
     }
 
@@ -20,7 +20,7 @@ const Homepage = () => {
             <div className="container">
                 <div className="search">
                     <input type="text" onChange={(e) => handleSearch(e)} />
-                    <button onClick={(e) => { handleSearchButton(e)}}>search</button>
+                    <button onClick={(e) => { handleSearchButton(search)}}>search</button>
                 </div>
                 <div className="">
                     <Article/>
