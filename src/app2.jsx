@@ -5,6 +5,7 @@ import Article from './assets/articles'; // Adjust the path as necessary
 // import About from './About';
 import ArticleDetail from './assets/showarticle';
 import Homepage from './components/landing';
+import MapSearch from './components/mapshow';
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Homepage />} /> {/* Display Article on the homepage */}
                 <Route path="/article" element={<ArticleDetail />} />
+                <Route path="/search" element={<MapSearch />} />
                 {/* Add other routes as necessary */}
             </Routes>
         </div>
