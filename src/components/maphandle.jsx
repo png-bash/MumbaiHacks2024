@@ -1,13 +1,11 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react'; 
 import MapComponent from './map.jsx';
 
-const Maphandle = ({location}) => {
-
-
-
-    const [data, setData] = useState(null);   // State to store fetched data
+const Maphandle = ({ location }) => {
+    const [data, setData] = useState(null);  // State to store fetched data
     const [loading, setLoading] = useState(true);  // State for loading
     const [error, setError] = useState(null);  // State for error handling
+    const mapRef = useRef();
 
     useEffect(() => {
         const fetchData = async () => {
@@ -31,12 +29,7 @@ const Maphandle = ({location}) => {
     if (loading) return <p>Loading...</p>;       // Loading message
     if (error) return <p>Error: {error}</p>;
 
-    const mapRef = useRef();
-
-    const handleAddCircle = (lat,long,radius) => {
-        const lat = 51.5074;
-        const long = -0.1278;
-        const radius = 300;
+    const handleAddCircle = (lat, long, radius) => {
         mapRef.current.addCircle(lat, long, radius);
     };
 
@@ -54,10 +47,23 @@ const Maphandle = ({location}) => {
             <MapComponent ref={mapRef} latitude={51.505} longitude={-0.09} />
 
             <div style={{ marginTop: '10px' }}>
-                <button onClick={handleAddCircle}>Add Circle</button>
+                {/* Dynamic Circle Addition */}
+                <button onClick={() => handleAddCircle(51.5074, -0.1278, 300)}>Add Circle</button>
                 <button onClick={() => mapRef.current.removeCircle()}>Remove Circle</button>
+
+                {/* Dynamic Route Addition */}
                 <button onClick={handleAddRoute}>Add Route</button>
                 <button onClick={() => mapRef.current.removeRoute()}>Remove Route</button>
+
+                {/* Optionally render the fetched data */}
+                <div>
+                    {data && data.map((item, index) => (
+                        <div key={index}>
+                            <p>Location: {item.name}</p>
+                            <button onClick={() => handleAddCircle(item.latitude, item.longitude, item.radius)}>Add Circle for {item.name}</button>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

@@ -1,4 +1,4 @@
-import React, { useState, useImperativeHandle, forwardRef } from 'react';
+import React, { useState, useImperativeHandle, forwardRef } from 'react'; 
 import { MapContainer, TileLayer, Circle, Polyline } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
@@ -13,30 +13,26 @@ const MapComponent = forwardRef(({ latitude, longitude }, ref) => {
             radius: radius,
             id: Date.now(),
         };
-        setCircles([...circles, newCircle]);
+        setCircles((prevCircles) => [...prevCircles, newCircle]);
     };
 
     // Function to remove the last added circle
     const removeCircle = () => {
-        setCircles(circles.slice(0, -1));
+        setCircles((prevCircles) => prevCircles.slice(0, -1));
     };
 
     // Function to add a route with custom positions
-    const addRoute = () => {
+    const addRoute = (positions) => {
         const newRoute = {
-            positions: [
-                [latitude, longitude],
-                [latitude + 0.005, longitude + 0.005],
-                [latitude + 0.01, longitude + 0.01],
-            ],
+            positions: positions,
             id: Date.now(),
         };
-        setRoutes([...routes, newRoute]);
+        setRoutes((prevRoutes) => [...prevRoutes, newRoute]);
     };
 
     // Function to remove the last added route
     const removeRoute = () => {
-        setRoutes(routes.slice(0, -1));
+        setRoutes((prevRoutes) => prevRoutes.slice(0, -1));
     };
 
     // Expose functions to the parent component using `useImperativeHandle`
