@@ -48,6 +48,7 @@ const MapComponent = forwardRef(({ latitude, longitude }, ref) => {
     }));
 
     return (
+        <div className=''>
         <MapContainer center={[latitude, longitude]} zoom={13} style={{ height: '100vh', width: '100%' }}>
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -72,7 +73,8 @@ const MapComponent = forwardRef(({ latitude, longitude }, ref) => {
                     pathOptions={{ color: 'red', weight: 4, dashArray: '5, 5' }}
                 />
             ))}
-        </MapContainer>
+            </MapContainer>
+        </div>
     );
 });
 

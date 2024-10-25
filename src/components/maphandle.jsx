@@ -1,43 +1,18 @@
 import React, { useRef, useState } from 'react';
 import MapComponent from './map.jsx';
 
-const Maphandle = ({location}) => {
-
-
-
+const Maphandle = ({ location }) => {
     const [data, setData] = useState(null);   // State to store fetched data
     const [loading, setLoading] = useState(true);  // State for loading
     const [error, setError] = useState(null);  // State for error handling
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch('https://api.example.com/data');  // Replace with your API URL
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                const result = await response.json();  // Parse JSON data
-                setData(result);                       // Store data in state
-            } catch (error) {
-                setError(error.message);               // Set error message
-            } finally {
-                setLoading(false);                     // Set loading to false when done
-            }
-        };
-
-        fetchData();
-    }, []);  // Empty dependency array to run once on mount
-
-    if (loading) return <p>Loading...</p>;       // Loading message
-    if (error) return <p>Error: {error}</p>;
-
     const mapRef = useRef();
 
-    const handleAddCircle = (lat,long,radius) => {
+    const handleAddCircle = () => {
         const lat = 51.5074;
         const long = -0.1278;
         const radius = 300;
-        mapRef.current.addCircle(lat, long, radius);
+        mapRef.current.addCircle(lat, long, radius);  // Use parameters to define circle's location and radius
     };
 
     const handleAddRoute = () => {
@@ -46,7 +21,7 @@ const Maphandle = ({location}) => {
             [51.51, -0.1],
             [51.52, -0.12],
         ];
-        mapRef.current.addRoute(positions);
+        mapRef.current.addRoute(positions);  // Pass positions array to add route
     };
 
     return (

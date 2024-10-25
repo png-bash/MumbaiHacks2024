@@ -1,38 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-/* In your CSS file */
-
-
+import { useState } from 'react';
+import './App.css';
+import Maphandle from './components/maphandle';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="flex justify-center">
+
+      <div className="w-4/5">
+      
+        <div className="flex"> {/* Prevents shrinking on smaller screens */}
+          <div className="w-1/2 p-4">
+          
+          <Maphandle />
+          </div>
+          <div className="w-1/2 p-4"> {/* Add padding for better spacing */}
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+            molestias iure excepturi natus perferendis a itaque impedit similique,
+            nam atque inventore at repellat libero eveniet mollitia magni corrupti
+            asperiores ex.
+          </p>
+        </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+
+    </div>
+  );
 }
 
-export default App
+export default App;
