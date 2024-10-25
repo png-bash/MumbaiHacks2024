@@ -1,25 +1,27 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Article from './assets/articles'; // Adjust the path as necessary
-// import Home from './Home'; // If you have a separate Home component
-// import About from './About';
+import Article from './assets/articles';
 import ArticleDetail from './assets/showarticle';
 import Homepage from './components/landing';
 import MapSearch from './components/mapshow';
+import ChatBot from './components/ChatBot'; // Import the ChatBot component
 
 const App = () => {
     return (
-        <div>
-            {/* <h1>Welcome to My App</h1> */}
-            <Routes>
-                <Route path="/" element={<Homepage />} /> {/* Display Article on the homepage */}
-                <Route path="/article" element={<ArticleDetail />} />
-                <Route path="/search" element={<MapSearch />} />
-                {/* Add other routes as necessary */}
-            </Routes>
-        </div>
+        <BrowserRouter>
+            <div>
+                {/* Optional: Global Chatbot Icon */}
+                <ChatBot />
+
+                <Routes>
+                    <Route path="/" element={<Homepage />} />
+                    <Route path="/article" element={<ArticleDetail />} />
+                    <Route path="/search" element={<MapSearch />} />
+                    <Route path="/chatbot" element={<ChatBot />} /> {/* Add route for chatbot */}
+                </Routes>
+            </div>
+        </BrowserRouter>
     );
 };
-
 
 export default App;

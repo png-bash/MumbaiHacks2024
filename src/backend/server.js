@@ -1,18 +1,38 @@
-// Import the Express library
-const express = require('express');
+// server.js
+import express from 'express';
+import cors from 'cors';
+import { something } from 'groq-sdk'; // Update this according to your actual usage
 
-// Initialize the Express app
+
+const groq = new Groq();
 const app = express();
+app.use(cors());
+app.use(express.json());
 
-// Define a port number for the server to listen on
-const PORT = 3000;
+app.post('/api/chat', async (req, res) => {
+  const { message } = req.body;
 
-// Define a route for the root URL
-app.get('/', (req, res) => {
-    res.send('Hello, World!');
+  try {
+    const chatCompletion = await groq.chat.completions.create({
+      "messages": [
+        { "role": "user", "content": message }
+      ],
+      "model": "llama-3.2-11b-text-preview",
+      "temperature": 1,
+      "max_tokens": 1024,
+      "top_p": 1,
+      "stream": false,  // stream as false to avoid streaming issue for now
+    });
+
+    // Respond back with the chatbot's reply
+    res.json({ response: chatCompletion.choices[0]?.message?.content });
+  } catch (error) {
+    console.error('Error fetching chatbot response:', error);
+    res.status(500).json({ error: 'Something went wrong' });
+  }
 });
 
-// Start the server and listen on the specified port
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
