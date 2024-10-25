@@ -35,7 +35,7 @@ const MapComponent = forwardRef(({ latitude, longitude }, ref) => {
         setRoutes((prevRoutes) => prevRoutes.slice(0, -1));
     };
 
-    // Expose functions to the parent component using `useImperativeHandle`
+    // Expose functions to the parent component using useImperativeHandle
     useImperativeHandle(ref, () => ({
         addCircle,
         removeCircle,
@@ -45,30 +45,30 @@ const MapComponent = forwardRef(({ latitude, longitude }, ref) => {
 
     return (
         <div className=''>
-        <MapContainer center={[latitude, longitude]} zoom={13} style={{ height: '100vh', width: '100%' }}>
-            <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-            />
-
-            {/* Render circles */}
-            {circles.map(circle => (
-                <Circle
-                    key={circle.id}
-                    center={circle.center}
-                    radius={circle.radius}
-                    pathOptions={{ color: 'blue', fillColor: 'lightblue', fillOpacity: 0.5 }}
+            <MapContainer center={[latitude, longitude]} zoom={13} style={{ height: '100vh', width: '100%' }}>
+                <TileLayer
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
                 />
-            ))}
 
-            {/* Render routes */}
-            {routes.map(route => (
-                <Polyline
-                    key={route.id}
-                    positions={route.positions}
-                    pathOptions={{ color: 'red', weight: 4, dashArray: '5, 5' }}
-                />
-            ))}
+                {/* Render circles */}
+                {circles.map(circle => (
+                    <Circle
+                        key={circle.id}
+                        center={circle.center}
+                        radius={circle.radius}
+                        pathOptions={{ color: 'blue', fillColor: 'lightblue', fillOpacity: 0.5 }}
+                    />
+                ))}
+
+                {/* Render routes */}
+                {routes.map(route => (
+                    <Polyline
+                        key={route.id}
+                        positions={route.positions}
+                        pathOptions={{ color: 'red', weight: 4, dashArray: '5, 5' }}
+                    />
+                ))}
             </MapContainer>
         </div>
     );
