@@ -1,0 +1,31 @@
+latitude,longitude,crime_type,date,description,no. of cases
+19.076,72.8777,Harassment,2024-01-15,Verbal harassment near shopping complex,75
+19.0833,72.8787,Stalking,2024-01-18,Repeated stalking incident near residential area,120
+19.069,72.8767,Domestic Violence,2024-01-20,Domestic violence case in apartment complex,200
+19.0775,72.8822,Eve Teasing,2024-01-25,Eve teasing incident near bus stop,45
+19.073,72.8745,Workplace Harassment,2024-02-01,Workplace harassment reported in office building,90
+19.0867,72.8797,Assault,2024-02-05,Physical assault in parking lot,150
+19.0665,72.8735,Domestic Violence,2024-02-10,Domestic violence in residential area,250
+19.08,72.8853,Harassment,2024-02-15,Harassment incident near metro station,60
+19.071,72.8715,Stalking,2024-02-20,Stalking case reported in park area,35
+19.0835,72.8829,Eve Teasing,2024-02-25,Eve teasing incident near college campus,110
+19.064,72.8703,Workplace Harassment,2024-03-01,Harassment at local market,20
+19.0755,72.8808,Assault,2024-03-05,Assault near train station,180
+19.0703,72.8749,Domestic Violence,2024-03-10,Domestic violence case in housing colony,300
+19.0782,72.8812,Eve Teasing,2024-03-15,Eve teasing near mall,40
+19.0855,72.8799,Harassment,2024-03-20,Workplace harassment in corporate office,85
+19.0652,72.8722,Stalking,2024-03-25,Physical assault at public square,70
+19.0728,72.8785,Workplace Harassment,2024-04-01,Domestic dispute near police station,15
+19.0695,72.8747,Assault,2024-04-05,Stalking reported at community center,95
+19.0812,72.8793,Domestic Violence,2024-04-10,Verbal harassment at bus terminal,225
+19.0675,72.8755,Eve Teasing,2024-04-15,Domestic violence in apartment block,50
+19.079,72.876,Harassment,2024-04-20,Harassment near hospital,30
+19.0632,72.8711,Stalking,2024-04-25,Repeated stalking at public park,65
+19.0823,72.8837,Domestic Violence,2024-05-01,Domestic violence in residential tower,190
+19.0744,72.8779,Eve Teasing,2024-05-05,Eve teasing in cinema complex,80
+19.0687,72.8728,Workplace Harassment,2024-05-10,Workplace harassment in IT park,100
+19.083,72.878,Assault,2024-05-15,Physical assault in open ground,40
+19.072,72.8758,Domestic Violence,2024-05-20,Domestic violence in gated community,130
+19.0669,72.8707,Harassment,2024-05-25,Harassment near educational institution,25
+19.0805,72.8815,Stalking,2024-06-01,Stalking reported at lakefront,55
+19.0715,72.8733,Eve Teasing,2024-06-05,Eve teasing near shopping plaza,95
