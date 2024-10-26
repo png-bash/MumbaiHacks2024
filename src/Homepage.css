@@ -7,7 +7,7 @@ body {
     margin: 0; /* Remove default margin */
     overflow: hidden; /* Prevent scrolling */
     background-color: #f0f0f0; /* Light background color */
-    background-image: url('assets/image.png'); /* Path to your background image */
+    background-image: url('assets/BACKGROUND.jpg'); /* Path to your background image */
     background-size: cover; /* Cover the background area */
     background-position: top center; /* Position the image at the top center */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -24,6 +24,8 @@ body {
 
 /* Styling for the search section */
 .search {
+    margin-left: -30%;
+    margin-right: 30%;
     display: flex; /* Use flexbox for alignment */
     justify-content: center; /* Center the search elements */
     position: relative; /* For positioning child elements */
@@ -104,5 +106,5 @@ body {
 }
 .articlediv{
     width: 125%;
-    margin-left: -10%;
+    margin-left: -40%;
 }

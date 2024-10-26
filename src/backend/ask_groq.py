@@ -9,7 +9,7 @@ try:
     # Define your LLM model
     llm = ChatGroq(
         temperature=0,
-        groq_api_key="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",
+        groq_api_key="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",
         model_name="llama-3.1-70b-versatile"
     )
     

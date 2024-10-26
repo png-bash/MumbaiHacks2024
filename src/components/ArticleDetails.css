@@ -1,70 +1,61 @@
 /* ArticleDetails.css */
 .article-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
-    /* padding: 1rem; */
-  }
-  
-  .article-card {
-    background-color: white;
-    border: 1px solid #e2e8f0;
-    border-radius: 0.5rem;
-    /* padding: 1rem; */
-    cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-  }
-  
-  .article-card:hover {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .article-title {
-    font-size: 1.125rem;
-    font-weight: bold;
-    /* margin-bottom: 0.5rem; */
-  }
-  
-  .article-subtitle {
-    font-size: 0.875rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .article-body {
-    margin: 0.5rem 0;
-  }
-  
-  .article-date {
-    /* margin-top: 0.5rem; */
-  }
-  
-  /* Loading and Error states */
-  .loading,
-  .error {
-    text-align: center;
-    padding: 2rem;
-    font-size: 1.125rem;
-  }
-  
-  /* Media Queries for responsive grid */
-  @media (min-width: 640px) {
-    .article-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .article-grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
 
-  .scrollable-container {
-    max-height: 600px; /* Adjust the height as needed */
-    overflow-y: auto; /* Enable vertical scrolling */
-    padding: 1rem; /* Optional padding */
-    border: 1px solid #e5e7eb; /* Optional border for styling */
-    border-radius: 0.5rem; /* Optional rounded corners */
-    background-color: #f9fafb; /* Optional light background */
+.article-card {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.article-subtitle {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-body {
+  margin: 0.5rem 0;
+}
+
+.article-date {
+  margin-top: 0.5rem;
+}
+
+/* Loading and Error states */
+.loading,
+.error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.125rem;
+}
+
+/* Media Queries for responsive grid */
+@media (min-width: 640px) {
+  .article-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .article-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

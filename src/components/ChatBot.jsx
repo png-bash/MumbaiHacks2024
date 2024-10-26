@@ -54,7 +54,7 @@ const ChatBot = () => {
   };
 
   return (
-    <div className="flex flex-col h-screen w-[60vw] max-w-2xl mx-auto p-4">
+    <div className="flex flex-col h-screen w-[50vw]  mx-4 p-4 fixed left-0 top-0"> {/* Updated width and positioning */}
       <div className="bg-blue-800 text-white p-4 rounded-t-lg">
         <h1 className="text-xl font-bold">Women Helpline Assistant</h1>
         <p className="text-sm opacity-75">Here to support and empower you</p>
