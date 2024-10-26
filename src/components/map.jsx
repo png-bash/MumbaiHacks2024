@@ -10,7 +10,7 @@ const MapComponent = forwardRef(({ latitude, longitude }, ref) => {
     const addCircle = (lat, long, radius) => {
         const newCircle = {
             center: [lat, long],
-            radius: radius,
+            radius: parseInt(radius),
             id: Date.now(),
         };
         setCircles((prevCircles) => [...prevCircles, newCircle]);
@@ -57,7 +57,7 @@ const MapComponent = forwardRef(({ latitude, longitude }, ref) => {
                         key={circle.id}
                         center={circle.center}
                         radius={circle.radius}
-                        pathOptions={{ color: 'blue', fillColor: 'lightblue', fillOpacity: 0.5 }}
+                        pathOptions={{ color: 'red', fillColor: 'lightred', fillOpacity: 0.5 }}
                     />
                 ))}
 
@@ -66,7 +66,7 @@ const MapComponent = forwardRef(({ latitude, longitude }, ref) => {
                     <Polyline
                         key={route.id}
                         positions={route.positions}
-                        pathOptions={{ color: 'red', weight: 4, dashArray: '5, 5' }}
+                        pathOptions={{ color: 'blue', weight: 4, dashArray: '5, 5' }}
                     />
                 ))}
             </MapContainer>
