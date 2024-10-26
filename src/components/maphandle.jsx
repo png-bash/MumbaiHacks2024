@@ -2,17 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import MapComponent from './map.jsx';
 
 const Maphandle = ({ location }) => {
-<<<<<<< HEAD
-    const [latitude, setLatitude] = useState(51.505); // Default latitude
-    const [longitude, setLongitude] = useState(-0.09); // Default longitude
-
-    const mapRef = useRef();
-
-    const handleUpdateMap = () => {
-        const lat = parseFloat(latitude);
-        const long = parseFloat(longitude);
-        mapRef.current.moveMap(lat, long);  // Function to move the map to the new coordinates
-=======
     const [data, setData] = useState(null); // State to store fetched data
     const [loading, setLoading] = useState(true); // State for loading
     const [error, setError] = useState(null);
@@ -76,30 +65,10 @@ const Maphandle = ({ location }) => {
         if (mapRef.current) {
             mapRef.current.addRoute(positions);
         }
->>>>>>> e2543b25d0faa2f49c9c8ca5f3c7155f8de15745
     };
 
     return (
         <div>
-<<<<<<< HEAD
-            <MapComponent ref={mapRef} latitude={latitude} longitude={longitude} />
-
-            <div style={{ marginTop: '10px' }}>
-                <h4>Update Map Location</h4>
-                <input
-                    type="number"
-                    value={latitude}
-                    onChange={(e) => setLatitude(e.target.value)}
-                    placeholder="Latitude"
-                />
-                <input
-                    type="number"
-                    value={longitude}
-                    onChange={(e) => setLongitude(e.target.value)}
-                    placeholder="Longitude"
-                />
-                <button onClick={handleUpdateMap}>Go to Location</button>
-=======
             {(latitude && longitude) ? (
                 <MapComponent ref={mapRef} latitude={latitude} longitude={longitude} />
             ) : (
@@ -111,7 +80,6 @@ const Maphandle = ({ location }) => {
                 <button onClick={() => mapRef.current.removeCircle()}>Remove Circle</button>
                 <button onClick={() => handleAddRoute(/* Pass positions here */)}>Add Route</button>
                 <button onClick={() => mapRef.current.removeRoute()}>Remove Route</button>
->>>>>>> e2543b25d0faa2f49c9c8ca5f3c7155f8de15745
             </div>
         </div>
     );
