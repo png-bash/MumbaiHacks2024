@@ -52,6 +52,25 @@
 }
 
 .flex-70 {
+<<<<<<< HEAD
+  flex: 0 0 70%; /* Occupies 70% of the flex container */
+}
+
+.flex-30 {
+  flex: 0 0 30%; /* Occupies 30% of the flex container */
+}
+
+.p-5 {
+  padding: 1.25rem; /* Padding for the map container */
+}
+
+.p-4 {
+  padding: 1rem; /* Padding for the text container */
+}
+
+
+
+=======
   flex: 0 0 70%;
   /* Occupies 70% of the flex container */
 }
@@ -70,3 +89,4 @@
   padding: 1rem;
   /* Padding for the text container */
 }
+>>>>>>> pavan

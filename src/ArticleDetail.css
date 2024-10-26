@@ -1,0 +1,38 @@
+.article-container {
+    position: fixed; /* Fixes the position */
+    left: 5%; /* Aligns to the left */
+    top: 10%; /* Adds some space from the top */
+    min-width: 50%; /* Sets width to 50% */
+    min-height: 80vh; /* Sets height to 80% of the viewport height */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+    padding: 16px; /* Adds padding */
+    background-color: #f8f9fa; /* Sets a light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+    border-radius: 8px; /* Rounds the corners */
+}
+
+.article-box {
+    /* Optional: you can style the article box here */
+    width: 90%;
+    height: 90%;
+}
+
+.article-title {
+    font-size: 1.5rem; /* Title font size */
+    margin-bottom: 0.5rem; /* Space below the title */
+}
+
+.article-subtitle {
+    font-size: 1.25rem; /* Subtitle font size */
+    margin-bottom: 1rem; /* Space below the subtitle */
+}
+
+.article-body {
+    font-size: 1rem; /* Body font size */
+    margin-bottom: 1rem; /* Space below the body */
+}
+
+.article-date {
+    font-size: 0.875rem; /* Date font size */
+    color: #6c757d; /* Gray color for the date */
+}

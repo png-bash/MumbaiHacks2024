@@ -11,7 +11,7 @@ const Maphandle = ({ location }) => {
     useEffect(() => {
         // Define the async function to fetch data from the API
         async function fetchData() {
-            const apiUrl = 'http://localhost:3000/api/analyze-safety'; // Corrected API URL
+            const apiUrl = 'http://localhost:4000/api/analyze-safety'; // Corrected API URL
 
             // Data to be sent in the request body
             const requestData = {
@@ -40,6 +40,7 @@ const Maphandle = ({ location }) => {
                     setLatitude(data.position.latitude); // Update latitude state
                     setLongitude(data.position.longitude); // Update longitude state
                     console.log(data);
+                    handleAddCircle(data.position.latitude,data.position.longitude,1000)
                 }
             } catch (error) {
                 console.error('Error fetching data:', error.message);
@@ -75,14 +76,14 @@ const Maphandle = ({ location }) => {
                 <p>Loading map data...</p>
             )}
 
-            <div style={{ marginTop: '10px' }}>
+            {/* <div style={{ marginRight: '10px' }}>
                 <button onClick={() => handleAddCircle(latitude, longitude, 750)}>Add Circle</button>
                 <button onClick={() => mapRef.current.removeCircle()}>Remove Circle</button>
-                <button onClick={() => handleAddRoute(/* Pass positions here */)}>Add Route</button>
+                <button onClick={() => handleAddRoute()}>Add Route</button>
                 <button onClick={() => mapRef.current.removeRoute()}>Remove Route</button>
-            </div>
+            </div> */}
         </div>
     );
 };
 
-export default Maphandle;
+export default Maphandle;

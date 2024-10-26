@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif; /* Basic font family for the page */
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.article-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the contents horizontally */
+    align-items: center; /* Center the contents vertically */
+    min-height: 100vh; /* Full height of the viewport */
+    padding: 20px; /* Padding around the container */
+    text-align: center; /* Center text in the container */
+}
+
+.article-box {
+    background: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the box */
+    max-width: 600px; /* Maximum width for the article box */
+    width: 100%; /* Full width up to the max-width */
+    margin: 0 20px; /* Margin on the sides */
+}
+
+/* Center alignment for title, subtitle, body, and date */
+.article-title,
+.article-subtitle,
+.article-body,
+.article-date,
+.not-found {
+    text-align: center; /* Center text in all relevant elements */
+    
+}
+
+/* Title styles */
+.article-title {
+    font-size: 2em; /* Larger font size for the title */
+    font-weight: bold; /* Bold title */
+    color: #ed1a1a; /* Darker text color */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+/* Subtitle styles */
+.article-subtitle {
+    font-size: 1.5em; /* Subtitle font size */
+    color: #666; /* Medium gray for subtitle */
+    margin-bottom: 10px; /* Space below the subtitle */
+}
+
+/* Body text styles */
+.article-body {
+    margin-top: 20px; /* Space above the body text */
+    color: #444; /* Dark gray for body text */
+    line-height: 1.6; /* Improved line spacing for readability */
+}
+
+/* Date styles */
+.article-date {
+    margin-top: 20px; /* Space above the date */
+    color: #999; /* Light gray for the date */
+    font-size: 0.9em; /* Smaller font size for the date */
+}
+
+/* Not found message styles */
+.not-found {
+    font-size: 1.5em; /* Slightly larger font size */
+    color: #ff0000; /* Red color for the not-found message */
+}

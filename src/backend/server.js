@@ -1,6 +1,7 @@
 // app.js
 const express = require('express');
 const CrimeSafetyAnalyzer = require('./crimeSafetyAnalyzer');
+const cors  = require('cors')
 
 const app = express();
 app.use(express.json());
@@ -8,7 +9,7 @@ app.use(express.json());
 // Initialize analyzer
 const analyzer = new CrimeSafetyAnalyzer();
 
-
+app.use(cors());
 async function getCoordinates(address) {
     try {
         // Replace spaces with '+' for URL encoding
@@ -48,7 +49,7 @@ async function getCoordinates(address) {
 // Load data when server starts
 const initializeAnalyzer = async () => {
     try {
-        await analyzer.loadData('crime_data.csv');
+        await analyzer.loadData('mumbai_crime_dataset.csv');
         console.log('Crime data loaded successfully');
     } catch (error) {
         console.error('Error loading crime data:', error);
@@ -101,7 +102,7 @@ app.post('/api/analyze-safety', async (req, res) => {
 });
 
 // Start server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, async () => {
     await initializeAnalyzer();
     console.log(`Server running on port ${PORT}`);
