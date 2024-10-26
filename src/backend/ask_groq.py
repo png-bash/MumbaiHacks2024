@@ -1,6 +1,9 @@
 import sys
 import json
 from langchain_groq import ChatGroq
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 try:
     # Fetch the question passed as a command-line argument
@@ -9,7 +12,7 @@ try:
     # Define your LLM model
     llm = ChatGroq(
         temperature=0,
-        groq_api_key="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",
+        groq_api_key=os.getenv("API_KEY"),
         model_name="llama-3.1-70b-versatile"
     )
     
