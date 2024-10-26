@@ -13,16 +13,16 @@ function MapSearch() {
     return (
         <>
         
-            <div className="flex justify-center" >
-                <div className="w-full" >
-                    <div className="flex" >
+            <div  >
+                <div  >
+                    <div  >
                         {/* Map Container with 70% width */}
-                        < div className="flex-70 p-9" >
+                        < div  >
                             <Maphandle location={search}/>
                         </div>
 
                         {/* Content Section with 30% width */}
-                        <div className="flex-20 p-2" >
+                        <div>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.Perspiciatis,
                                 molestias iure excepturi natus perferendis a itaque impedit similique,

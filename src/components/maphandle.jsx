@@ -106,7 +106,7 @@ const Maphandle = ({ location }) => {
                 <p>Loading map data...</p>
             )}
 
-            <div style={{ marginTop: '10px' }}>
+            <div style={{ marginRight: '10px' }}>
                 <button onClick={() => handleAddCircle(latitude, longitude, 750)}>Add Circle</button>
                 <button onClick={() => mapRef.current.removeCircle()}>Remove Circle</button>
                 <button onClick={() => handleAddRoute(/* Pass positions here */)}>Add Route</button>
