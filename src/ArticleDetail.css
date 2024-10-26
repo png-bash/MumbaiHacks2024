@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Apply the font to the body */
+}
+
+/* Container for articles */
+.article-container { 
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the contents */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    max-width: 3000px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container on the page */
+    padding: 20px; /* Add padding around the container */
+}
+
+/* Each article box */
+.article-box {
+    background: rgba(0, 0, 0, 0.7); /* Dark glassy background for each article box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 30px; /* Increased padding inside each box for better content spacing */
+    margin: 20px; /* Increased space between boxes */
+    flex: 1 1 calc(33.333% - 40px); /* Flex-grow and basis for three columns with gaps */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    text-align: center; /* Center all text inside the box */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .article-box {
+        flex: 1 1 calc(50% - 40px); /* Two columns on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .article-box {
+        flex: 1 1 100%; /* Single column on small screens */
+    }
+}
+
+/* Title styles */
+.article-title {
+    font-size: 1.8em; /* Increased title font size for better visibility */
+    font-weight: bold; /* Bold title */
+    color: #eeeaea; /* White text color */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+}
+
+/* Subtitle styles */
+.article-subtitle {
+    font-size: 1.4em; /* Increased subtitle font size */
+    color: #ddd; /* Light gray subtitle color */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+}
+
+/* Body text styles */
+.article-body {
+    margin-top: 15px; /* Increased space above the body text */
+    color: #fff; /* White body text */
+    line-height: 1.6; /* Improved line height for readability */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+}
+
+/* Date styles */
+.article-date {
+    margin-top: 10px; /* Space above the date */
+    color: #bbb; /* Light gray date color */
+    font-size: 0.9em; /* Smaller font size for the date */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+}

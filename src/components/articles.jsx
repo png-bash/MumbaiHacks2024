@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import '../ArticleDetails.css'; // Import the CSS file
 const Article = () => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -42,9 +42,9 @@ const Article = () => {
                     onClick={() => handleCardClick(article)}
                 >
                     <h2 className="text-lg font-bold">{article.title}</h2>
-                    <h3 className="text-sm text-gray-600">{article.subtitle}</h3>
+                    <h3 className="text-sm ">{article.subtitle}</h3>
                     <p className="mt-2">{article.body.substring(0, 100)}...</p>
-                    <p className="mt-2 text-gray-500">{article.date}</p>
+                    <p className="mt-2 ">{article.date}</p>
                 </div>
             ))}
         </div>

@@ -1,6 +1,7 @@
 // app.js
 const express = require('express');
 const CrimeSafetyAnalyzer = require('./crimeSafetyAnalyzer');
+const cors  = require('cors')
 
 const app = express();
 app.use(express.json());
@@ -8,7 +9,7 @@ app.use(express.json());
 // Initialize analyzer
 const analyzer = new CrimeSafetyAnalyzer();
 
-
+app.use(cors());
 async function getCoordinates(address) {
     try {
         // Replace spaces with '+' for URL encoding
