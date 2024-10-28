@@ -1,0 +1,501 @@
+latitude,longitude,crime_type,date,description,no. of cases
+19.091334335708233,72.89116571219526,Domestic Violence,2024-06-23,Domestic violence case in residential area,148
+19.099888202020416,72.8531544608595,Workplace Harassment,2024-05-14,Workplace harassment in office area,38
+19.077095723297884,72.87613101227628,Workplace Harassment,2024-10-07,Workplace harassment in office area,131
+19.072989552260566,72.87517149066377,Assault,2024-07-17,Physical assault reported in public place,203
+19.077039712995592,72.87587517778584,Harassment,2024-07-07,Harassment incident near public place,283
+19.06691208501152,72.88101786032271,Domestic Violence,2024-07-06,Domestic violence case in residential area,110
+19.080023867117053,72.85416791057776,Harassment,2024-10-24,Harassment incident near public place,197
+19.094417739800008,72.89068101494429,Assault,2024-09-28,Physical assault reported in public place,269
+19.085875951788296,72.89265855335042,Eve Teasing,2024-12-08,Eve teasing incident near crowded area,221
+19.072306441602244,72.87658918673954,Workplace Harassment,2024-05-14,Workplace harassment in office area,64
+19.067500720031997,72.83818352508918,Domestic Violence,2024-07-31,Domestic violence case in residential area,22
+19.09663447908164,72.9120560661321,Stalking,2024-03-22,Repeated stalking reported in area,39
+19.1041133631585,72.85652452041158,Assault,2024-12-05,Physical assault reported in public place,218
+19.076603911275797,72.87769677944019,Harassment,2024-02-17,Harassment incident near public place,142
+19.091844786508975,72.86118873990046,Domestic Violence,2024-08-15,Domestic violence case in residential area,232
+19.111575177696995,72.85050502140254,Stalking,2024-05-23,Repeated stalking reported in area,127
+19.0710857551511,72.87484526593649,Assault,2024-03-30,Physical assault reported in public place,39
+19.061776906829053,72.89086260225227,Workplace Harassment,2024-04-24,Workplace harassment in office area,33
+19.056025572583696,72.86492581782461,Stalking,2024-11-27,Repeated stalking reported in area,228
+19.09968879398963,72.86612064588378,Harassment,2024-08-21,Harassment incident near public place,92
+19.069530895050605,72.91804459966585,Assault,2024-02-17,Physical assault reported in public place,170
+19.076064556504292,72.87723309743859,Domestic Violence,2024-09-21,Domestic violence case in residential area,216
+19.075218496318325,72.87597600844992,Workplace Harassment,2024-09-08,Workplace harassment in office area,250
+19.062158903730552,72.87374735913163,Eve Teasing,2024-07-03,Eve teasing incident near crowded area,193
+19.043578723461696,72.88069087335445,Assault,2024-04-15,Physical assault reported in public place,211
+19.098121342903394,72.90039348556853,Eve Teasing,2024-02-04,Eve teasing incident near crowded area,293
+19.10330276446193,72.89153508906644,Harassment,2024-04-16,Harassment incident near public place,168
+19.06414476334502,72.83876476274281,Harassment,2024-08-03,Harassment incident near public place,298
+19.079481407154958,72.87958118347332,Harassment,2024-09-01,Harassment incident near public place,218
+19.054675472359644,72.85926238814876,Harassment,2024-03-06,Harassment incident near public place,148
+19.07881805008409,72.90050512742053,Stalking,2024-10-24,Repeated stalking reported in area,226
+19.074024739829525,72.86876874844937,Assault,2024-08-05,Physical assault reported in public place,234
+19.082130202972326,72.8628724258513,Workplace Harassment,2024-02-18,Workplace harassment in office area,26
+19.04007440058576,72.87960291822878,Domestic Violence,2024-12-26,Domestic violence case in residential area,193
+19.099612330776267,72.8380799982498,Stalking,2024-07-29,Repeated stalking reported in area,103
+19.07690503308697,72.87912814941475,Domestic Violence,2024-03-30,Domestic violence case in residential area,23
+19.080495761791997,72.87948230618251,Harassment,2024-01-01,Harassment incident near public place,144
+19.082883586562005,72.92205198736534,Eve Teasing,2024-01-06,Eve teasing incident near crowded area,270
+19.075746246019904,72.88550553660033,Workplace Harassment,2024-04-12,Workplace harassment in office area,120
+19.04118234750691,72.86480349985524,Harassment,2024-08-12,Harassment incident near public place,65
+19.08195617540075,72.9144813403588,Workplace Harassment,2024-06-23,Workplace harassment in office area,158
+19.06468446076868,72.86141363400566,Harassment,2024-08-21,Harassment incident near public place,267
+19.06976133023623,72.86415553829201,Workplace Harassment,2024-10-01,Workplace harassment in office area,284
+19.046473610024336,72.881379354588,Eve Teasing,2024-07-23,Eve teasing incident near crowded area,197
+19.08250270927444,72.85891915092188,Stalking,2024-08-25,Repeated stalking reported in area,29
+19.043276457703932,72.8846409782518,Stalking,2024-12-28,Repeated stalking reported in area,89
+19.059763884783194,72.85665635388528,Workplace Harassment,2024-03-04,Workplace harassment in office area,201
+19.06725112615355,72.88274751351446,Assault,2024-04-10,Physical assault reported in public place,233
+19.089619511953927,72.89663162007699,Harassment,2024-11-25,Harassment incident near public place,47
+19.04309439211264,72.8908652513743,Assault,2024-01-15,Physical assault reported in public place,217
+19.07441563109707,72.88135854882394,Workplace Harassment,2024-10-27,Workplace harassment in office area,283
+19.101712128565257,72.85948676927113,Harassment,2024-08-21,Harassment incident near public place,242
+19.095062480712325,72.85030034753348,Domestic Violence,2024-05-21,Domestic violence case in residential area,108
+19.040368513337093,72.89934967855301,Workplace Harassment,2024-11-01,Workplace harassment in office area,60
+19.06229670709699,72.89716027255214,Workplace Harassment,2024-09-26,Workplace harassment in office area,88
+19.053425575053442,72.86485638193516,Eve Teasing,2024-06-22,Eve teasing incident near crowded area,84
+19.081563867217117,72.87741991988585,Harassment,2024-10-18,Harassment incident near public place,106
+19.101976578052646,72.8663907537163,Harassment,2024-11-09,Harassment incident near public place,75
+19.07866087247756,72.8788814044141,Eve Teasing,2024-08-19,Eve teasing incident near crowded area,259
+19.067173595127674,72.89103180724153,Workplace Harassment,2024-07-10,Workplace harassment in office area,68
+19.10744164466439,72.88674996905408,Eve Teasing,2024-12-29,Eve teasing incident near crowded area,137
+19.07308758450499,72.86078787213829,Harassment,2024-09-24,Harassment incident near public place,37
+19.051359602959767,72.88764190599197,Eve Teasing,2024-01-09,Eve teasing incident near crowded area,253
+19.11538494458075,72.87367204225522,Harassment,2024-06-07,Harassment incident near public place,71
+19.07358623381133,72.87390843179155,Eve Teasing,2024-07-08,Eve teasing incident near crowded area,230
+19.091040199435664,72.89484366326842,Eve Teasing,2024-06-30,Eve teasing incident near crowded area,205
+19.047648112493633,72.88110241790504,Domestic Violence,2024-05-31,Domestic violence case in residential area,239
+19.08553881141351,72.89125837968817,Assault,2024-08-12,Physical assault reported in public place,66
+19.072330901517038,72.89647780640645,Stalking,2024-02-12,Repeated stalking reported in area,287
+19.039928430773237,72.87741632226731,Harassment,2024-11-28,Harassment incident near public place,225
+19.096441914390184,72.87308822388422,Eve Teasing,2024-06-22,Eve teasing incident near crowded area,251
+19.03951845064082,72.88907797450533,Workplace Harassment,2024-07-29,Workplace harassment in office area,187
+19.107089829764195,72.86943221823898,Domestic Violence,2024-10-13,Domestic violence case in residential area,41
+19.07447647970057,72.88434430229098,Workplace Harassment,2024-01-02,Workplace harassment in office area,48
+19.07343157707444,72.89005409811068,Domestic Violence,2024-10-25,Domestic violence case in residential area,241
+19.040277502141393,72.87064844127414,Harassment,2024-07-16,Harassment incident near public place,238
+19.0759405930928,72.83319516341541,Eve Teasing,2024-06-19,Eve teasing incident near crowded area,179
+19.089353027315063,72.87562778939582,Workplace Harassment,2024-11-22,Workplace harassment in office area,259
+19.08342750434588,72.84568825894733,Eve Teasing,2024-12-12,Eve teasing incident near crowded area,175
+19.102284212835364,72.87855522428171,Domestic Violence,2024-06-23,Domestic violence case in residential area,61
+19.077275553503274,72.88931641205868,Harassment,2024-06-02,Harassment incident near public place,228
+19.107971647512432,72.87692756488305,Assault,2024-12-20,Physical assault reported in public place,262
+19.039974906437106,72.87579341021234,Stalking,2024-05-04,Repeated stalking reported in area,67
+19.07891267035199,72.86647693893218,Assault,2024-01-31,Physical assault reported in public place,242
+19.040340224437724,72.87410124009453,Assault,2024-08-21,Physical assault reported in public place,137
+19.069305215904862,72.90525045931832,Assault,2024-10-09,Physical assault reported in public place,127
+19.085104501318995,72.87338237683566,Domestic Violence,2024-06-15,Domestic violence case in residential area,275
+19.084283830773238,72.88492772599854,Domestic Violence,2024-12-23,Domestic violence case in residential area,75
+19.0951168789416,72.88883485093686,Domestic Violence,2024-05-17,Domestic violence case in residential area,245
+19.076332088651647,72.85516025563226,Harassment,2024-02-12,Harassment incident near public place,60
+19.05484350295056,72.85039150011009,Domestic Violence,2024-02-04,Domestic violence case in residential area,103
+19.067146691358897,72.88825620855638,Stalking,2024-12-19,Repeated stalking reported in area,263
+19.081092962255795,72.86883662998925,Workplace Harassment,2024-11-20,Workplace harassment in office area,225
+19.051843802113325,72.87469356896986,Domestic Violence,2024-05-20,Domestic violence case in residential area,140
+19.10268446867512,72.86249351053384,Domestic Violence,2024-06-16,Domestic violence case in residential area,108
+19.075290048931205,72.87312477889597,Harassment,2024-08-24,Harassment incident near public place,23
+19.109710175794703,72.8597237543388,Harassment,2024-12-08,Harassment incident near public place,81
+19.08798266201456,72.88813408458807,Assault,2024-12-09,Physical assault reported in public place,132
+19.065101888098543,72.89179911001406,Stalking,2024-02-19,Repeated stalking reported in area,244
+19.07116464287699,72.88952975275555,Harassment,2024-09-30,Harassment incident near public place,82
+19.069935619438713,72.88004005626713,Harassment,2024-09-24,Harassment incident near public place,262
+19.10091023581645,72.84906720186854,Workplace Harassment,2024-09-24,Workplace harassment in office area,253
+19.114435927641715,72.87867469688568,Workplace Harassment,2024-09-08,Workplace harassment in office area,286
+19.07205478916056,72.881127169618,Domestic Violence,2024-08-05,Domestic violence case in residential area,287
+19.06906329147341,72.87901235796372,Stalking,2024-07-12,Repeated stalking reported in area,56
+19.0837819942864,72.88837743923622,Stalking,2024-12-10,Repeated stalking reported in area,58
+19.076205331509705,72.84754200403358,Eve Teasing,2024-12-08,Eve teasing incident near crowded area,33
+19.084522325393145,72.86628763064444,Workplace Harassment,2024-09-03,Workplace harassment in office area,68
+19.099187726613362,72.8569851983652,Harassment,2024-02-11,Harassment incident near public place,79
+19.096388982639304,72.89961131397074,Domestic Violence,2024-02-07,Domestic violence case in residential area,236
+19.098105251342762,72.86796391896033,Harassment,2024-02-21,Harassment incident near public place,264
+19.05714543991594,72.87508321895803,Eve Teasing,2024-01-25,Eve teasing incident near crowded area,138
+19.04274432757877,72.89576026169968,Stalking,2024-06-22,Repeated stalking reported in area,300
+19.10801678562162,72.88489909938458,Workplace Harassment,2024-05-11,Workplace harassment in office area,166
+19.093077640005767,72.86795668604695,Assault,2024-10-20,Physical assault reported in public place,160
+19.111088442526558,72.87097762051516,Assault,2024-10-18,Physical assault reported in public place,54
+19.069167804151522,72.8844531543422,Workplace Harassment,2024-07-10,Workplace harassment in office area,175
+19.051539881105093,72.8442527018575,Eve Teasing,2024-12-13,Eve teasing incident near crowded area,221
+19.072563596066967,72.88048610417381,Eve Teasing,2024-03-11,Eve teasing incident near crowded area,280
+19.076799121951677,72.83300049035837,Assault,2024-09-19,Physical assault reported in public place,145
+19.091247226113307,72.87508852163569,Stalking,2024-11-23,Repeated stalking reported in area,102
+19.058086156478126,72.8803441307829,Stalking,2024-06-07,Repeated stalking reported in area,21
+19.077473994442705,72.87886820321168,Harassment,2024-06-20,Harassment incident near public place,154
+19.09229381183477,72.88748355997966,Domestic Violence,2024-10-10,Domestic violence case in residential area,212
+19.0758096635899,72.88103229049233,Workplace Harassment,2024-09-28,Workplace harassment in office area,77
+19.076688672703426,72.87390866418252,Harassment,2024-10-15,Harassment incident near public place,144
+19.076813095543365,72.87173853333388,Workplace Harassment,2024-04-28,Workplace harassment in office area,82
+19.100528477923824,72.8644124329368,Domestic Violence,2024-01-16,Domestic violence case in residential area,123
+19.100593029412522,72.90537197301529,Stalking,2024-06-06,Repeated stalking reported in area,161
+19.051154225555845,72.84209397901002,Eve Teasing,2024-02-02,Eve teasing incident near crowded area,57
+19.077232557167925,72.88143415714607,Domestic Violence,2024-04-23,Domestic violence case in residential area,80
+19.053645965033564,72.91655256684294,Stalking,2024-10-21,Repeated stalking reported in area,114
+19.059781295344994,72.87004684165414,Eve Teasing,2024-12-07,Eve teasing incident near crowded area,29
+19.09314442375555,72.89341739793767,Assault,2024-02-19,Physical assault reported in public place,61
+19.120508363304346,72.87233463363773,Workplace Harassment,2024-04-07,Workplace harassment in office area,37
+19.042501585857227,72.87961504267338,Harassment,2024-03-04,Harassment incident near public place,26
+19.047725877554324,72.86963577841702,Harassment,2024-02-12,Harassment incident near public place,136
+19.073057617960377,72.87954768618799,Stalking,2024-03-14,Repeated stalking reported in area,130
+19.085188413352913,72.84442707550039,Stalking,2024-04-21,Repeated stalking reported in area,193
+19.041088282656588,72.87470079287007,Eve Teasing,2024-12-14,Eve teasing incident near crowded area,269
+19.076360698055108,72.87758907897329,Eve Teasing,2024-07-07,Eve teasing incident near crowded area,282
+19.07787339029184,72.88007151521009,Harassment,2024-10-29,Harassment incident near public place,193
+19.058325720823543,72.89109846531314,Assault,2024-07-10,Physical assault reported in public place,42
+19.069497344329655,72.86671719954562,Stalking,2024-02-27,Repeated stalking reported in area,129
+19.041442539308523,72.86575284427833,Stalking,2024-11-02,Repeated stalking reported in area,237
+19.084733321729896,72.889338829047,Harassment,2024-03-24,Harassment incident near public place,290
+19.073633996770486,72.89905869871549,Workplace Harassment,2024-02-07,Workplace harassment in office area,178
+19.086816800661964,72.8884341238852,Domestic Violence,2024-04-04,Domestic violence case in residential area,264
+19.073167784212142,72.88359948835027,Domestic Violence,2024-05-14,Domestic violence case in residential area,267
+19.066389674087674,72.8604815891664,Workplace Harassment,2024-01-20,Workplace harassment in office area,217
+19.05991802347323,72.83391354047366,Domestic Violence,2024-01-14,Domestic violence case in residential area,281
+19.091084742369635,72.90293206040006,Workplace Harassment,2024-05-20,Workplace harassment in office area,109
+19.0423202043241,72.89694348315976,Stalking,2024-05-14,Repeated stalking reported in area,54
+19.075799457047264,72.87757570404824,Stalking,2024-12-05,Repeated stalking reported in area,138
+19.047673686723762,72.85791061071905,Harassment,2024-01-09,Harassment incident near public place,169
+19.091735923624263,72.85079853074667,Domestic Violence,2024-05-06,Domestic violence case in residential area,43
+19.07546621152577,72.87729279216518,Workplace Harassment,2024-08-28,Workplace harassment in office area,170
+19.06926299322034,72.88703626025183,Domestic Violence,2024-08-12,Domestic violence case in residential area,49
+19.090819895423913,72.88421957352779,Stalking,2024-10-31,Repeated stalking reported in area,33
+19.10040114919751,72.90122123213445,Stalking,2024-09-18,Repeated stalking reported in area,246
+19.08361424846932,72.8390958662591,Assault,2024-03-12,Physical assault reported in public place,149
+19.044624032468555,72.84718443800516,Assault,2024-06-16,Physical assault reported in public place,64
+19.092002178895363,72.88006038759505,Workplace Harassment,2024-09-18,Workplace harassment in office area,98
+19.053113527310682,72.89090174989157,Eve Teasing,2024-02-09,Eve teasing incident near crowded area,169
+19.095333633200756,72.87179188876493,Domestic Violence,2024-03-29,Domestic violence case in residential area,36
+19.085777058533136,72.86936817769124,Stalking,2024-02-15,Repeated stalking reported in area,134
+19.055746096491475,72.83930077834296,Domestic Violence,2024-04-10,Domestic violence case in residential area,112
+19.0736740314008,72.8780276571404,Domestic Violence,2024-11-07,Domestic violence case in residential area,59
+19.08920693052111,72.88717544506514,Domestic Violence,2024-03-26,Domestic violence case in residential area,185
+19.101956628928598,72.89318504645206,Harassment,2024-12-02,Harassment incident near public place,289
+19.07748915852317,72.87985439832615,Harassment,2024-06-05,Harassment incident near public place,111
+19.089968525299028,72.86926753189388,Assault,2024-11-22,Physical assault reported in public place,29
+19.06067295476127,72.89865716007058,Stalking,2024-11-05,Repeated stalking reported in area,222
+19.097912484433706,72.87956754607526,Domestic Violence,2024-08-20,Domestic violence case in residential area,164
+19.07553799404113,72.88104312950495,Harassment,2024-11-28,Harassment incident near public place,141
+19.06408503536744,72.88549562414256,Harassment,2024-12-11,Harassment incident near public place,297
+19.058795470363854,72.87529949549382,Harassment,2024-01-17,Harassment incident near public place,144
+19.092671721176735,72.84648873046129,Eve Teasing,2024-02-16,Eve teasing incident near crowded area,199
+19.072511979903563,72.84383169187916,Domestic Violence,2024-10-02,Domestic violence case in residential area,111
+19.084393491043983,72.90285687300032,Harassment,2024-09-07,Harassment incident near public place,229
+19.0902753878561,72.921946967164,Assault,2024-03-19,Physical assault reported in public place,257
+19.11780358160403,72.87617351143861,Eve Teasing,2024-10-04,Eve teasing incident near crowded area,278
+19.035595990321198,72.88200071321359,Harassment,2024-10-11,Harassment incident near public place,177
+19.08888295723396,72.89704811261264,Domestic Violence,2024-03-03,Domestic violence case in residential area,29
+19.05677939580658,72.87936202171097,Stalking,2024-04-04,Repeated stalking reported in area,264
+19.072257754138395,72.88508208602802,Assault,2024-02-27,Physical assault reported in public place,120
+19.06685073052911,72.91168982458395,Assault,2024-06-08,Physical assault reported in public place,41
+19.078203725435177,72.89177716550023,Assault,2024-08-20,Physical assault reported in public place,237
+19.09459579343319,72.85381093608638,Domestic Violence,2024-06-30,Domestic violence case in residential area,290
+19.069279878110816,72.88644838194604,Domestic Violence,2024-09-05,Domestic violence case in residential area,199
+19.05255241374753,72.85517196810055,Eve Teasing,2024-12-12,Eve teasing incident near crowded area,250
+19.066215211116095,72.85605222067538,Eve Teasing,2024-10-16,Eve teasing incident near crowded area,68
+19.11414580784169,72.87300773380314,Stalking,2024-02-03,Repeated stalking reported in area,298
+19.10062319897942,72.87298926240354,Workplace Harassment,2024-01-25,Workplace harassment in office area,182
+19.06248843453261,72.87214736012511,Stalking,2024-01-28,Repeated stalking reported in area,88
+19.076483220692435,72.87747687880301,Eve Teasing,2024-05-26,Eve teasing incident near crowded area,144
+19.072345553576323,72.85556482798086,Workplace Harassment,2024-08-24,Workplace harassment in office area,79
+19.076433801121176,72.83547881635971,Eve Teasing,2024-01-17,Eve teasing incident near crowded area,153
+19.078842491209475,72.88020930406329,Workplace Harassment,2024-12-22,Workplace harassment in office area,196
+19.08514991904746,72.86910090065253,Harassment,2024-03-15,Harassment incident near public place,215
+19.097125710657604,72.89267938811015,Eve Teasing,2024-01-09,Eve teasing incident near crowded area,216
+19.078129658591397,72.88039035864422,Assault,2024-07-08,Physical assault reported in public place,224
+19.094421599286793,72.89061636588049,Domestic Violence,2024-08-27,Domestic violence case in residential area,93
+19.080362172641536,72.83786362785372,Stalking,2024-10-22,Repeated stalking reported in area,228
+19.054984695694518,72.86911501088306,Workplace Harassment,2024-10-07,Workplace harassment in office area,294
+19.087838063247833,72.92256036758391,Eve Teasing,2024-05-02,Eve teasing incident near crowded area,216
+19.08802657144147,72.8446442027681,Stalking,2024-03-22,Repeated stalking reported in area,27
+19.092057075359698,72.90492581745546,Assault,2024-03-02,Physical assault reported in public place,168
+19.05260259726579,72.87843386582874,Eve Teasing,2024-02-03,Eve teasing incident near crowded area,144
+19.09246401807256,72.87648407940704,Stalking,2024-08-08,Repeated stalking reported in area,139
+19.06184736596554,72.85754358309464,Assault,2024-03-03,Physical assault reported in public place,188
+19.054280744373134,72.86207758045865,Workplace Harassment,2024-03-08,Workplace harassment in office area,242
+19.06210248861001,72.89780251414588,Workplace Harassment,2024-10-09,Workplace harassment in office area,169
+19.086654745869925,72.87886683651894,Eve Teasing,2024-01-07,Eve teasing incident near crowded area,82
+19.075267379775518,72.87945699901978,Harassment,2024-03-23,Harassment incident near public place,251
+19.05227030487617,72.85039933229018,Eve Teasing,2024-07-10,Eve teasing incident near crowded area,86
+19.071407941398075,72.85147896411007,Stalking,2024-05-07,Repeated stalking reported in area,218
+19.05904750573939,72.9165713433248,Stalking,2024-02-05,Repeated stalking reported in area,20
+19.054384681914247,72.88583759014698,Eve Teasing,2024-05-26,Eve teasing incident near crowded area,117
+19.044987251082,72.89538598039479,Harassment,2024-05-26,Harassment incident near public place,132
+19.07601318154459,72.87755660425297,Stalking,2024-12-15,Repeated stalking reported in area,256
+19.080278665808418,72.91915577670204,Workplace Harassment,2024-04-26,Workplace harassment in office area,185
+19.084302586923908,72.87299740807708,Workplace Harassment,2024-11-02,Workplace harassment in office area,244
+19.090547119463228,72.87030935129464,Domestic Violence,2024-03-06,Domestic violence case in residential area,101
+19.1127429693303,72.8912894663966,Assault,2024-02-06,Physical assault reported in public place,30
+19.071657914645748,72.88387465837121,Workplace Harassment,2024-04-14,Workplace harassment in office area,275
+19.059971481306135,72.91533875939609,Domestic Violence,2024-10-11,Domestic violence case in residential area,248
+19.095218726960532,72.88433743321714,Harassment,2024-01-04,Harassment incident near public place,42
+19.075197787170183,72.88159845336314,Harassment,2024-12-21,Harassment incident near public place,284
+19.072095615504754,72.8552075147146,Eve Teasing,2024-03-14,Eve teasing incident near crowded area,292
+19.047109771328333,72.87727488674551,Eve Teasing,2024-10-23,Eve teasing incident near crowded area,22
+19.10658447376622,72.8746700164901,Assault,2024-06-16,Physical assault reported in public place,119
+19.10793690484933,72.84451918038715,Harassment,2024-05-27,Harassment incident near public place,270
+19.073619238172792,72.87750678726324,Stalking,2024-07-16,Repeated stalking reported in area,45
+19.067442991489013,72.85313341697734,Assault,2024-12-03,Physical assault reported in public place,137
+19.057109875244585,72.8764948160762,Stalking,2024-02-15,Repeated stalking reported in area,90
+19.04564405528072,72.90648840968254,Eve Teasing,2024-04-11,Eve teasing incident near crowded area,142
+19.053561336010162,72.87432529583754,Eve Teasing,2024-04-01,Eve teasing incident near crowded area,117
+19.072075344105404,72.87255670019398,Harassment,2024-03-29,Harassment incident near public place,63
+19.031943135481413,72.87701057678308,Eve Teasing,2024-10-12,Eve teasing incident near crowded area,102
+19.074490450799196,72.88394036218175,Workplace Harassment,2024-05-14,Workplace harassment in office area,86
+19.07007240312675,72.861837696647,Harassment,2024-09-22,Harassment incident near public place,179
+19.082797090936197,72.90695742372866,Domestic Violence,2024-02-05,Domestic violence case in residential area,244
+19.07129801053631,72.86921897326873,Assault,2024-01-14,Physical assault reported in public place,29
+19.068500716505934,72.87733563624711,Domestic Violence,2024-04-17,Domestic violence case in residential area,266
+19.113380059486897,72.85671745107011,Eve Teasing,2024-10-15,Eve teasing incident near crowded area,83
+19.088653024785522,72.8971783891888,Domestic Violence,2024-08-27,Domestic violence case in residential area,212
+19.075860196075475,72.87772911073311,Stalking,2024-07-21,Repeated stalking reported in area,249
+19.088035566137886,72.85189796522435,Assault,2024-05-09,Physical assault reported in public place,253
+19.07414739011714,72.86488631085204,Domestic Violence,2024-10-27,Domestic violence case in residential area,217
+19.103536426339495,72.89724595044204,Harassment,2024-05-10,Harassment incident near public place,147
+19.09489159861723,72.88867925966754,Harassment,2024-05-28,Harassment incident near public place,243
+19.048939028435797,72.87867269725008,Domestic Violence,2024-01-05,Domestic violence case in residential area,277
+19.05194302648344,72.91632566296892,Stalking,2024-11-12,Repeated stalking reported in area,226
+19.06807538451218,72.89641387101027,Assault,2024-04-24,Physical assault reported in public place,290
+19.10005361111081,72.85786941181775,Stalking,2024-05-05,Repeated stalking reported in area,215
+19.055147617872038,72.91866009033458,Domestic Violence,2024-09-12,Domestic violence case in residential area,101
+19.105826919716833,72.87740913191597,Assault,2024-07-21,Physical assault reported in public place,97
+19.075054659004017,72.85540355569243,Assault,2024-09-18,Physical assault reported in public place,125
+19.057393528733517,72.87024363073984,Harassment,2024-11-28,Harassment incident near public place,255
+19.076566469880657,72.87832135401437,Eve Teasing,2024-06-03,Eve teasing incident near crowded area,78
+19.106875305224374,72.86162255682581,Stalking,2024-02-01,Repeated stalking reported in area,140
+19.095458622406568,72.88418936769409,Stalking,2024-12-21,Repeated stalking reported in area,167
+19.05137281910598,72.89494139518177,Workplace Harassment,2024-09-28,Workplace harassment in office area,208
+19.04235617834239,72.84959296254897,Eve Teasing,2024-11-16,Eve teasing incident near crowded area,67
+19.075784577880384,72.87876084367025,Workplace Harassment,2024-07-26,Workplace harassment in office area,55
+19.105634678496095,72.90146348357952,Domestic Violence,2024-10-30,Domestic violence case in residential area,159
+19.0448903486501,72.87043957564853,Assault,2024-03-10,Physical assault reported in public place,137
+19.05318758876208,72.87755825532331,Eve Teasing,2024-09-07,Eve teasing incident near crowded area,101
+19.062504652053487,72.90192757444196,Workplace Harassment,2024-04-24,Workplace harassment in office area,134
+19.067958945812734,72.84227159169826,Workplace Harassment,2024-10-07,Workplace harassment in office area,109
+19.101778438936662,72.91155489133331,Domestic Violence,2024-03-01,Domestic violence case in residential area,189
+19.102990585721145,72.8741391280223,Harassment,2024-04-22,Harassment incident near public place,179
+19.07824243904254,72.87524281021904,Stalking,2024-06-17,Repeated stalking reported in area,258
+19.106751939842784,72.89444518197492,Harassment,2024-11-04,Harassment incident near public place,105
+19.096501841038982,72.89336503706181,Domestic Violence,2024-10-05,Domestic violence case in residential area,269
+19.061269161529893,72.87689431695945,Assault,2024-03-10,Physical assault reported in public place,193
+19.060585170357225,72.91320963499895,Stalking,2024-05-17,Repeated stalking reported in area,209
+19.048214645476943,72.88207621277355,Stalking,2024-07-23,Repeated stalking reported in area,272
+19.078336028306243,72.89328058597162,Assault,2024-10-25,Physical assault reported in public place,274
+19.06133604631261,72.88265302429468,Assault,2024-05-15,Physical assault reported in public place,258
+19.090758740657954,72.85252435867491,Domestic Violence,2024-09-20,Domestic violence case in residential area,51
+19.062364779374047,72.86367803254106,Harassment,2024-05-22,Harassment incident near public place,78
+19.073713227521466,72.87814038673947,Domestic Violence,2024-01-16,Domestic violence case in residential area,204
+19.08823227804734,72.90120546829404,Stalking,2024-03-14,Repeated stalking reported in area,206
+19.074237001657934,72.84688991310976,Stalking,2024-06-27,Repeated stalking reported in area,173
+19.09726611284348,72.89205076418793,Stalking,2024-07-13,Repeated stalking reported in area,62
+19.04391856927071,72.87451733643299,Harassment,2024-11-08,Harassment incident near public place,215
+19.092303491030187,72.86224776877957,Eve Teasing,2024-03-15,Eve teasing incident near crowded area,43
+19.07576744901034,72.87771613704345,Assault,2024-02-22,Physical assault reported in public place,169
+19.085731984906946,72.8590082922913,Stalking,2024-09-10,Repeated stalking reported in area,194
+19.074768329342092,72.86943286988338,Stalking,2024-10-25,Repeated stalking reported in area,128
+19.077278067536284,72.87642803671416,Eve Teasing,2024-08-12,Eve teasing incident near crowded area,287
+19.07392558308548,72.87549240121973,Workplace Harassment,2024-10-09,Workplace harassment in office area,62
+19.055141947915594,72.84279188463087,Eve Teasing,2024-12-25,Eve teasing incident near crowded area,163
+19.059908350666863,72.85792418506225,Eve Teasing,2024-12-05,Eve teasing incident near crowded area,128
+19.079047839295335,72.87562430581637,Harassment,2024-10-23,Harassment incident near public place,296
+19.102959727428594,72.87498038519887,Assault,2024-05-27,Physical assault reported in public place,159
+19.064080688509204,72.87493550713143,Harassment,2024-05-16,Harassment incident near public place,51
+19.06723535195996,72.83815226891008,Stalking,2024-07-12,Repeated stalking reported in area,120
+19.076434278057487,72.87733398758097,Eve Teasing,2024-02-25,Eve teasing incident near crowded area,120
+19.08613035807639,72.87821884693172,Workplace Harassment,2024-01-16,Workplace harassment in office area,256
+19.07333347326308,72.87801349538339,Eve Teasing,2024-08-09,Eve teasing incident near crowded area,294
+19.08451254184241,72.8557982675271,Stalking,2024-10-24,Repeated stalking reported in area,212
+19.084579952562454,72.85378576767442,Assault,2024-06-20,Physical assault reported in public place,231
+19.0708930489403,72.8615939152293,Stalking,2024-04-24,Repeated stalking reported in area,110
+19.07615779772777,72.83276468394827,Workplace Harassment,2024-08-22,Workplace harassment in office area,155
+19.083339841731814,72.85503693772922,Eve Teasing,2024-08-25,Eve teasing incident near crowded area,149
+19.089564436120767,72.84412502667492,Harassment,2024-09-26,Harassment incident near public place,31
+19.09287094780125,72.84740665103887,Stalking,2024-12-24,Repeated stalking reported in area,144
+19.062477599268846,72.91433579797935,Eve Teasing,2024-12-17,Eve teasing incident near crowded area,78
+19.1019316700356,72.87050377431287,Eve Teasing,2024-10-23,Eve teasing incident near crowded area,126
+19.069997674253518,72.88920369831035,Eve Teasing,2024-08-25,Eve teasing incident near crowded area,64
+19.07467274376221,72.87697093836539,Assault,2024-07-21,Physical assault reported in public place,29
+19.093825087603133,72.91605396212263,Eve Teasing,2024-05-22,Eve teasing incident near crowded area,138
+19.045538489986498,72.84424293752662,Harassment,2024-05-03,Harassment incident near public place,227
+19.072094932216036,72.88197743987655,Stalking,2024-08-09,Repeated stalking reported in area,34
+19.04716252255216,72.86333781191608,Assault,2024-05-10,Physical assault reported in public place,208
+19.084969925806696,72.88919049750763,Assault,2024-03-26,Physical assault reported in public place,282
+19.104032628170202,72.86944985885445,Assault,2024-12-29,Physical assault reported in public place,221
+19.05992563456667,72.90098954915969,Eve Teasing,2024-08-15,Eve teasing incident near crowded area,225
+19.08476568834553,72.86589826402806,Assault,2024-11-04,Physical assault reported in public place,166
+19.05287034592224,72.854309394021,Workplace Harassment,2024-04-09,Workplace harassment in office area,78
+19.05933792697987,72.91079634530216,Harassment,2024-06-27,Harassment incident near public place,135
+19.06334685252968,72.91769884363471,Harassment,2024-06-25,Harassment incident near public place,134
+19.083806318721564,72.84494315537475,Workplace Harassment,2024-06-06,Workplace harassment in office area,67
+19.055659719340067,72.88509447836468,Workplace Harassment,2024-05-07,Workplace harassment in office area,64
+19.038202869738463,72.8940225287876,Eve Teasing,2024-03-24,Eve teasing incident near crowded area,132
+19.079929371580686,72.87962108331041,Domestic Violence,2024-12-29,Domestic violence case in residential area,267
+19.07485848392595,72.87229072801982,Stalking,2024-09-26,Repeated stalking reported in area,114
+19.05626242056464,72.84798874571311,Assault,2024-01-12,Physical assault reported in public place,167
+19.067394191069717,72.89154353158061,Eve Teasing,2024-01-07,Eve teasing incident near crowded area,292
+19.054009858624635,72.90455642017739,Workplace Harassment,2024-01-02,Workplace harassment in office area,268
+19.08315541883832,72.86169973510646,Domestic Violence,2024-02-29,Domestic violence case in residential area,37
+19.098228697689393,72.89273846645435,Eve Teasing,2024-06-16,Eve teasing incident near crowded area,184
+19.111292439817813,72.86414585669964,Stalking,2024-10-09,Repeated stalking reported in area,123
+19.072706201211872,72.87084274320551,Workplace Harassment,2024-01-25,Workplace harassment in office area,281
+19.06222271267211,72.83499935926947,Assault,2024-10-25,Physical assault reported in public place,175
+19.074652041843073,72.87453710726395,Stalking,2024-06-24,Repeated stalking reported in area,98
+19.11290861174626,72.89457033541687,Assault,2024-10-27,Physical assault reported in public place,214
+19.08711407540769,72.87961727862023,Assault,2024-01-01,Physical assault reported in public place,240
+19.072811457499515,72.90079801112869,Harassment,2024-07-28,Harassment incident near public place,28
+19.07174019826488,72.87475799067097,Eve Teasing,2024-11-07,Eve teasing incident near crowded area,161
+19.09032117992616,72.91545002579527,Workplace Harassment,2024-09-13,Workplace harassment in office area,205
+19.068454144836597,72.87412578431149,Workplace Harassment,2024-01-26,Workplace harassment in office area,162
+19.107501375544857,72.87772127360164,Stalking,2024-08-26,Repeated stalking reported in area,122
+19.07800698255947,72.85093236632252,Domestic Violence,2024-12-06,Domestic violence case in residential area,47
+19.087970034434694,72.86427603414833,Assault,2024-05-02,Physical assault reported in public place,263
+19.08005454161946,72.84299834260881,Stalking,2024-06-28,Repeated stalking reported in area,27
+19.049719126699188,72.91602813296156,Domestic Violence,2024-03-18,Domestic violence case in residential area,146
+19.083059422662235,72.87967667922587,Assault,2024-06-12,Physical assault reported in public place,201
+19.067425700806492,72.87285053138193,Eve Teasing,2024-02-23,Eve teasing incident near crowded area,157
+19.061941031011166,72.84811561948753,Assault,2024-06-21,Physical assault reported in public place,83
+19.075668014290645,72.87683877455734,Harassment,2024-05-04,Harassment incident near public place,55
+19.07397632009681,72.8771343250596,Domestic Violence,2024-01-26,Domestic violence case in residential area,25
+19.069930731193978,72.85154108728658,Workplace Harassment,2024-09-20,Workplace harassment in office area,94
+19.06831982321671,72.86470192104318,Eve Teasing,2024-07-27,Eve teasing incident near crowded area,137
+19.073922705562794,72.88093538898414,Domestic Violence,2024-02-10,Domestic violence case in residential area,123
+19.10229986477184,72.83915808268011,Eve Teasing,2024-07-05,Eve teasing incident near crowded area,128
+19.06422914405025,72.88200307272356,Stalking,2024-08-07,Repeated stalking reported in area,269
+19.087522296748745,72.85930747428476,Assault,2024-05-11,Physical assault reported in public place,42
+19.06115709969409,72.91069034601702,Eve Teasing,2024-03-01,Eve teasing incident near crowded area,280
+19.046764838882623,72.89408188379979,Assault,2024-03-17,Physical assault reported in public place,48
+19.105078802910253,72.89602448219826,Workplace Harassment,2024-09-28,Workplace harassment in office area,123
+19.07553960582032,72.8813978897301,Workplace Harassment,2024-04-09,Workplace harassment in office area,288
+19.08673750782923,72.87799002831,Stalking,2024-05-19,Repeated stalking reported in area,190
+19.09913765264665,72.87156809623673,Stalking,2024-07-27,Repeated stalking reported in area,295
+19.038533384183353,72.85179968266208,Harassment,2024-01-06,Harassment incident near public place,164
+19.07670410318362,72.85993004138656,Domestic Violence,2024-10-02,Domestic violence case in residential area,118
+19.07251502185165,72.8808282620786,Stalking,2024-12-07,Repeated stalking reported in area,279
+19.086973201843655,72.8337196586393,Stalking,2024-12-08,Repeated stalking reported in area,56
+19.09908784769711,72.89145663475983,Harassment,2024-10-03,Harassment incident near public place,195
+19.086167239038677,72.88906142857306,Domestic Violence,2024-07-28,Domestic violence case in residential area,241
+19.037728819799177,72.86883391533348,Eve Teasing,2024-02-26,Eve teasing incident near crowded area,169
+19.088362944320263,72.87725750774179,Domestic Violence,2024-12-19,Domestic violence case in residential area,253
+19.061110084991277,72.86433189765388,Assault,2024-06-19,Physical assault reported in public place,76
+19.097990684156606,72.89876915437024,Assault,2024-05-30,Physical assault reported in public place,207
+19.062339712322448,72.91312295287143,Domestic Violence,2024-02-18,Domestic violence case in residential area,230
+19.057073436932697,72.86050241890776,Stalking,2024-10-10,Repeated stalking reported in area,284
+19.056895707676997,72.91912723571363,Workplace Harassment,2024-08-16,Workplace harassment in office area,182
+19.052897935318068,72.91210841334605,Harassment,2024-03-15,Harassment incident near public place,113
+19.038331506043555,72.85736762351297,Stalking,2024-06-21,Repeated stalking reported in area,129
+19.076766098358032,72.87294692127946,Assault,2024-07-19,Physical assault reported in public place,53
+19.103832490542203,72.91193428052698,Harassment,2024-10-08,Harassment incident near public place,93
+19.05708557300656,72.86475169947285,Stalking,2024-04-22,Repeated stalking reported in area,45
+19.0701258590791,72.87750811332421,Workplace Harassment,2024-11-17,Workplace harassment in office area,163
+19.046561218873112,72.88620357307136,Domestic Violence,2024-09-22,Domestic violence case in residential area,293
+19.09314390069583,72.89975896258206,Domestic Violence,2024-06-10,Domestic violence case in residential area,179
+19.06287257513491,72.8953488189837,Stalking,2024-10-25,Repeated stalking reported in area,61
+19.09379182614213,72.88449572889826,Eve Teasing,2024-07-13,Eve teasing incident near crowded area,92
+19.08960310503222,72.86126942010513,Harassment,2024-06-08,Harassment incident near public place,41
+19.086221082748438,72.87140302799111,Assault,2024-03-21,Physical assault reported in public place,296
+19.081019570112993,72.850962200292,Workplace Harassment,2024-08-02,Workplace harassment in office area,52
+19.095765470919545,72.88356086672376,Stalking,2024-02-09,Repeated stalking reported in area,58
+19.079488677687863,72.8495472934136,Assault,2024-10-03,Physical assault reported in public place,47
+19.06585184242208,72.90544796950928,Harassment,2024-06-13,Harassment incident near public place,181
+19.042488211271905,72.87709364204845,Eve Teasing,2024-10-23,Eve teasing incident near crowded area,278
+19.078279414598292,72.87043986054806,Workplace Harassment,2024-04-02,Workplace harassment in office area,249
+19.065945907196003,72.83407702315127,Stalking,2024-08-06,Repeated stalking reported in area,137
+19.069825185079775,72.87599886350903,Stalking,2024-03-25,Repeated stalking reported in area,98
+19.068244238393923,72.87136280963598,Assault,2024-07-19,Physical assault reported in public place,114
+19.084089718130805,72.90103999926431,Domestic Violence,2024-12-02,Domestic violence case in residential area,99
+19.075743600097613,72.87778974199215,Workplace Harassment,2024-07-25,Workplace harassment in office area,39
+19.06838539030573,72.89740891100364,Eve Teasing,2024-03-20,Eve teasing incident near crowded area,47
+19.075756786495923,72.87515586345623,Harassment,2024-10-19,Harassment incident near public place,166
+19.071434902644015,72.88348875357775,Domestic Violence,2024-07-24,Domestic violence case in residential area,172
+19.06181445231989,72.87459447274655,Assault,2024-05-15,Physical assault reported in public place,205
+19.07262325708187,72.85532669073332,Harassment,2024-02-07,Harassment incident near public place,53
+19.073039505329856,72.85960375860482,Harassment,2024-09-16,Harassment incident near public place,157
+19.077548960551685,72.86488653705803,Harassment,2024-11-17,Harassment incident near public place,22
+19.07049930521178,72.90042309882179,Eve Teasing,2024-02-19,Eve teasing incident near crowded area,239
+19.077304821664285,72.88169696117774,Assault,2024-03-07,Physical assault reported in public place,90
+19.048813571733533,72.8717403180847,Eve Teasing,2024-02-03,Eve teasing incident near crowded area,297
+19.070083203731762,72.8843311063286,Domestic Violence,2024-12-14,Domestic violence case in residential area,28
+19.105277158681677,72.87911335935136,Eve Teasing,2024-10-07,Eve teasing incident near crowded area,26
+19.05187787423227,72.86354658413323,Harassment,2024-07-26,Harassment incident near public place,180
+19.065104076421942,72.88051863295986,Harassment,2024-06-22,Harassment incident near public place,191
+19.05065141287588,72.88036814685329,Eve Teasing,2024-04-17,Eve teasing incident near crowded area,289
+19.07494249334009,72.89172582131893,Assault,2024-01-20,Physical assault reported in public place,226
+19.08120969661442,72.88252117024157,Stalking,2024-04-12,Repeated stalking reported in area,123
+19.047039619289833,72.90035778746095,Assault,2024-10-02,Physical assault reported in public place,280
+19.08076968593486,72.83962699669715,Domestic Violence,2024-11-20,Domestic violence case in residential area,90
+19.101266282361514,72.88355694054944,Assault,2024-01-22,Physical assault reported in public place,70
+19.061841673699377,72.84643189862348,Stalking,2024-06-26,Repeated stalking reported in area,37
+19.08570548001909,72.90107997422693,Assault,2024-10-03,Physical assault reported in public place,51
+19.110947460166713,72.88968798003313,Eve Teasing,2024-05-28,Eve teasing incident near crowded area,258
+19.083494662503345,72.90048671519617,Harassment,2024-08-15,Harassment incident near public place,197
+19.08628501584954,72.85545887627767,Workplace Harassment,2024-07-09,Workplace harassment in office area,131
+19.080614318129264,72.85974817805068,Harassment,2024-10-25,Harassment incident near public place,283
+19.05443850673702,72.8928431670279,Domestic Violence,2024-06-29,Domestic violence case in residential area,232
+19.074346479439768,72.88936517105913,Harassment,2024-08-21,Harassment incident near public place,168
+19.0878396876951,72.91681270165704,Assault,2024-01-30,Physical assault reported in public place,136
+19.07635619520467,72.8791046125851,Harassment,2024-10-26,Harassment incident near public place,253
+19.095095202222737,72.86217203237563,Stalking,2024-10-05,Repeated stalking reported in area,158
+19.075403715341455,72.87758367344854,Assault,2024-08-25,Physical assault reported in public place,209
+19.087124670817513,72.85251284668013,Stalking,2024-06-20,Repeated stalking reported in area,285
+19.077530072666708,72.877271793851,Harassment,2024-08-06,Harassment incident near public place,226
+19.073533337232842,72.8781533022975,Stalking,2024-09-13,Repeated stalking reported in area,197
+19.074174736384748,72.84795344375817,Assault,2024-10-09,Physical assault reported in public place,48
+19.04147727042917,72.87020178375124,Stalking,2024-07-17,Repeated stalking reported in area,247
+19.082357325604494,72.89928441587877,Stalking,2024-07-28,Repeated stalking reported in area,181
+19.05213569743019,72.88459598634476,Stalking,2024-02-11,Repeated stalking reported in area,57
+19.055307923877226,72.88995004349529,Domestic Violence,2024-11-01,Domestic violence case in residential area,116
+19.059582962188607,72.8585552991591,Harassment,2024-06-30,Harassment incident near public place,27
+19.05498605680176,72.83928502918272,Harassment,2024-08-26,Harassment incident near public place,115
+19.11180544513166,72.88284401166328,Stalking,2024-03-20,Repeated stalking reported in area,230
+19.090262084935205,72.90575941320951,Domestic Violence,2024-01-08,Domestic violence case in residential area,178
+19.089719189458627,72.89056645599176,Workplace Harassment,2024-09-08,Workplace harassment in office area,72
+19.07889704234468,72.87752500321754,Eve Teasing,2024-04-30,Eve teasing incident near crowded area,297
+19.082817226021923,72.87489407044639,Harassment,2024-07-02,Harassment incident near public place,266
+19.085076076121975,72.87952244863583,Harassment,2024-10-05,Harassment incident near public place,209
+19.039203658346736,72.90253473575875,Eve Teasing,2024-08-17,Eve teasing incident near crowded area,45
+19.057835321611517,72.91250124405579,Eve Teasing,2024-07-31,Eve teasing incident near crowded area,94
+19.086710311443266,72.85318365631757,Eve Teasing,2024-11-30,Eve teasing incident near crowded area,61
+19.045398599942445,72.89265020899552,Workplace Harassment,2024-12-12,Workplace harassment in office area,71
+19.088425362609886,72.8788292474147,Domestic Violence,2024-07-21,Domestic violence case in residential area,86
+19.04238224106584,72.89665945209354,Harassment,2024-09-11,Harassment incident near public place,23
+19.08087479717604,72.8363214566089,Assault,2024-01-09,Physical assault reported in public place,282
+19.10663614571536,72.8976115259341,Assault,2024-11-25,Physical assault reported in public place,103
+19.0756773698793,72.87681682490435,Stalking,2024-01-17,Repeated stalking reported in area,86
+19.091432185478084,72.88195927083122,Stalking,2024-02-01,Repeated stalking reported in area,153
+19.0971669824313,72.87923788925893,Workplace Harassment,2024-04-24,Workplace harassment in office area,152
+19.07588626462617,72.8880732622919,Stalking,2024-12-21,Repeated stalking reported in area,156
+19.07433857038228,72.87639430898646,Workplace Harassment,2024-03-18,Workplace harassment in office area,245
+19.09771771661829,72.86878692815455,Harassment,2024-01-27,Harassment incident near public place,290
+19.086216079913488,72.87394757021372,Eve Teasing,2024-09-09,Eve teasing incident near crowded area,58
+19.085459245009975,72.9131929631688,Assault,2024-12-05,Physical assault reported in public place,242
+19.044309509690283,72.90823426593623,Workplace Harassment,2024-09-24,Workplace harassment in office area,203
+19.070125902903545,72.88138140113813,Workplace Harassment,2024-09-24,Workplace harassment in office area,125
+19.074448494876236,72.86051438520727,Workplace Harassment,2024-01-22,Workplace harassment in office area,102
+19.104549936252276,72.84875381500743,Domestic Violence,2024-05-02,Domestic violence case in residential area,206
+19.0477357375287,72.87983328851334,Eve Teasing,2024-04-08,Eve teasing incident near crowded area,89
+19.07170604264564,72.85972957272949,Eve Teasing,2024-12-26,Eve teasing incident near crowded area,223
+19.076722318671273,72.87489349998732,Stalking,2024-05-16,Repeated stalking reported in area,38
+19.05919699675628,72.86868748456949,Harassment,2024-04-28,Harassment incident near public place,217
+19.105221783585005,72.86235744944092,Assault,2024-08-30,Physical assault reported in public place,80
+19.06617058161389,72.85715733439672,Eve Teasing,2024-01-13,Eve teasing incident near crowded area,224
+19.08481788969269,72.87455745709613,Stalking,2024-11-16,Repeated stalking reported in area,107
+19.061044150557098,72.85408885955833,Stalking,2024-01-05,Repeated stalking reported in area,170
+19.054589770126185,72.86614185881264,Eve Teasing,2024-05-22,Eve teasing incident near crowded area,193
+19.07644570802279,72.87566859485148,Workplace Harassment,2024-05-03,Workplace harassment in office area,204
+19.079627273042057,72.9193753520782,Domestic Violence,2024-12-02,Domestic violence case in residential area,137
+19.09598275724214,72.88655047992104,Assault,2024-06-30,Physical assault reported in public place,161
+19.04985862760074,72.88929560137875,Harassment,2024-07-10,Harassment incident near public place,191
+19.084119153634767,72.87717078681918,Workplace Harassment,2024-11-28,Workplace harassment in office area,63
+19.085667806636025,72.85602530600984,Domestic Violence,2024-05-28,Domestic violence case in residential area,137
+19.058011120917023,72.91190471836244,Domestic Violence,2024-01-05,Domestic violence case in residential area,205
+19.05220097430057,72.87011020189642,Domestic Violence,2024-09-29,Domestic violence case in residential area,218
+19.071888504515822,72.87656458943903,Domestic Violence,2024-03-10,Domestic violence case in residential area,138
+19.09802044045215,72.9070282378873,Workplace Harassment,2024-09-29,Workplace harassment in office area,293
+19.042517718207627,72.88984869211109,Domestic Violence,2024-08-03,Domestic violence case in residential area,193
+19.065286912326606,72.85850451528499,Assault,2024-10-26,Physical assault reported in public place,130
+19.045566567150495,72.9005024024338,Domestic Violence,2024-01-01,Domestic violence case in residential area,76
+19.10830540464651,72.86071540384954,Harassment,2024-08-16,Harassment incident near public place,47
+19.076049758256943,72.87710837179159,Stalking,2024-02-12,Repeated stalking reported in area,278
+19.093405033004014,72.86744448371216,Eve Teasing,2024-09-20,Eve teasing incident near crowded area,69
+19.067828728911877,72.89120082237936,Domestic Violence,2024-12-20,Domestic violence case in residential area,130
+19.066989387674383,72.85913178409108,Eve Teasing,2024-02-03,Eve teasing incident near crowded area,96
+19.07429921805477,72.88509220180741,Stalking,2024-03-28,Repeated stalking reported in area,258
+19.080558947454605,72.89047162870395,Domestic Violence,2024-07-19,Domestic violence case in residential area,256
