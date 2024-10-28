@@ -11,7 +11,7 @@ const Maphandle = ({ location }) => {
     useEffect(() => {
         // Define the async function to fetch data from the API
         async function fetchData() {
-            const apiUrl = 'http://localhost:4000/api/analyze-safety'; // Corrected API URL
+            const apiUrl = 'https://womensefty-backend.vercel.app/api/analyze-safety'; // Corrected API URL
 
             // Data to be sent in the request body
             const requestData = {
