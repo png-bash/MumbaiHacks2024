@@ -26,7 +26,7 @@ app.post('/api/ask', async (req, res) => {
         return res.status(400).json({ error: 'Question is required' });
     }
 
-    const pythonProcess = spawn('python3', ['./ask_groq.py', question]);
+    const pythonProcess = spawn('python', ['./ask_groq.py', question]);
     let dataString = '';
     let errorString = '';
 
